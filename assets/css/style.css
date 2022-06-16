@@ -1,0 +1,280 @@
+@font-face {
+  font-family: BiryaniExtraBold;
+  src: url(../fonts/Biryani/Biryani-ExtraBold.ttf);
+}
+@font-face {
+  font-family: BiryaniSemiBold;
+  src: url(../fonts/Biryani/Biryani-SemiBold.ttf);
+}
+@font-face {
+  font-family: BiryaniBold;
+  src: url(../fonts/Biryani/Biryani-Bold.ttf);
+}
+html {
+  background-color: black;
+}
+
+.top-bg {
+  background-image: url(../images/top-bg.png);
+  position: relative;
+  background-size: cover;
+  height: 29vh;
+}
+.top-bg .top-container {
+  font-family: BiryaniSemiBold;
+  padding: 20px;
+  font-size: 19px;
+  color: white;
+}
+.top-bg .top-container .r-logo {
+  display: flex;
+  margin-left: 8px;
+}
+.top-bg .top-container .r-logo img {
+  width: 60px;
+}
+.top-bg .top-container .header-text {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.top-bg .top-container .main-logo {
+  margin-left: -22px;
+}
+.top-bg .top-container .main-logo img {
+  width: 160px;
+}
+.top-bg .top-container #title {
+  font-family: BiryaniExtraBold;
+  margin-left: 125px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.top-bg .top-container #title span {
+  font-size: 30px;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+.bottom-container {
+  background: black;
+}
+.bottom-container .button-container {
+  background: rgb(0, 82, 123);
+  background: linear-gradient(180deg, rgb(0, 82, 123) 0%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 100%);
+  padding: 50px 0px 50px 0px;
+  font-family: BiryaniSemiBold;
+  color: #4F3D00;
+}
+.bottom-container .button-container .btn {
+  background-color: #FED132 !important;
+  border: #FED132 !important;
+  width: 83%;
+  height: 123px;
+  color: #4F3D00 !important;
+  font-size: 24px !important;
+  box-shadow: 0px 0px 16px #FED132;
+}
+.bottom-container .button-container .btn a {
+  text-decoration: none;
+  font-size: 39px;
+  font-family: BiryaniBold;
+  color: #4F3D00 !important;
+}
+
+.live-moment-container {
+  padding: 0px 0px 0px 32px;
+  font-family: BiryaniSemiBold;
+}
+
+.moment-container {
+  padding: 0px 0px 32px 32px;
+  font-family: BiryaniSemiBold;
+}
+
+.moment-title {
+  font-family: BiryaniBold;
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 21px;
+  margin-left: 50px;
+  transform: translateY(-10%);
+}
+
+.vl {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.vl span {
+  height: 188px;
+  width: 3px;
+  background-color: #003955;
+  border-radius: 99px;
+  margin: 16px 6px;
+}
+
+#moment-1 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 21px;
+  margin-left: 50px;
+  transform: translateY(-82%);
+  z-index: 10;
+}
+#moment-1 img {
+  box-shadow: 0px 0px 40px black;
+  object-fit: cover;
+  opacity: 1;
+}
+
+#moment-1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 82px;
+  height: 119px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#moment-2 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 21px;
+  margin-left: 100px;
+  transform: translateY(-82%);
+  z-index: 9;
+}
+#moment-2 img {
+  box-shadow: 0px 0px 16px black;
+  object-fit: cover;
+}
+
+#moment-2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 82px;
+  height: 119px;
+  background: rgba(184, 184, 184, 0.7);
+}
+
+#moment-3 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 21px;
+  margin-left: 150px;
+  transform: translateY(-82%);
+  z-index: 8;
+}
+#moment-3 img {
+  box-shadow: 0px 0px 16px black;
+  object-fit: cover;
+}
+
+#moment-3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 82px;
+  height: 119px;
+  background: rgba(148, 148, 148, 0.7);
+}
+
+#moment-4 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 21px;
+  margin-left: 200px;
+  transform: translateY(-82%);
+  z-index: 7;
+}
+#moment-4 img {
+  box-shadow: 0px 0px 16px black;
+  object-fit: cover;
+}
+
+#moment-4::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 82px;
+  height: 119px;
+  background: rgba(73, 73, 73, 0.7);
+}
+
+#moment-5 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 21px;
+  margin-left: 240px;
+  transform: translateY(-82%);
+  z-index: 6;
+}
+#moment-5 img {
+  box-shadow: 0px 0px 16px black;
+  object-fit: cover;
+}
+
+#moment-5::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 82px;
+  height: 119px;
+  background: rgba(46, 46, 46, 0.7);
+}
+
+.arrow-right {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 21px;
+  margin-left: 250px;
+  transform: translateY(-115%);
+  z-index: 10;
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 19px;
+  margin-left: 50px;
+  transform: translateY(140%);
+  z-index: 10;
+}
+
+/*# sourceMappingURL=style.css.map */
