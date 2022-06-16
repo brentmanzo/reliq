@@ -19,6 +19,10 @@ html {
     background-color: black;
 }
 
+.main-content {
+    overflow-x: hidden;
+}
+
 .top-bg {
     background-image: url(../images/top-bg.png);
     position: relative;
@@ -58,7 +62,7 @@ html {
 
         #title {
             font-family: BiryaniExtraBold;
-            margin-left: 125px;
+            margin: 0px 0px 0px 125px;
             position: absolute;
             width: 100%;
             top: 50%;
@@ -77,6 +81,7 @@ html {
     color: white;
 
 }
+
 
 
 .bottom-container {
